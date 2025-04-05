@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courses</title>
+    <link rel="stylesheet" href="./dist/css/reset.css" />
+    <link rel="stylesheet" href="./dist/css/main.css" />
+    <link rel="stylesheet" href="./dist/css/responsive.css" />
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <button class="header__button-menu">
+          <span class="header__navicon"></span>
+        </button>
+        <a href="index.html" class="logo header__logo">
+          <img src="img/header/logo.png" alt="Main logo" title="Our logo" />
+        </a>
+        <nav class="menu header__menu">
+          <ul>
+            <li class="menu__item">
+              <div class="menu-item__header">
+                <p>Courses</p>
+                <img
+                  src="img/header/arrow.png"
+                  alt="Icon arrow"
+                  title="Icon arrow"
+                />
+              </div>
+              <ul class="menu-item__submenu">
+                <li><a href="course.html">Computer Science</a></li>
+                <li><a href="course.html">Web Development</a></li>
+                <li><a href="course.html">Artificial Intelligence</a></li>
+                <li><a href="course.html">Data Science</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="reviews.html">Reviews</a>
+            </li>
+            <li>
+              <a href="contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__info">
+          <div class="header__contact">
+            <a href="tel:+380123456789" class="image header-contact__image">
+              <img
+                src="img/header/call.png"
+                alt="Icon phone"
+                title="Connect with manager"
+              />
+            </a>
+            <a href="" class="image header-contact__image">
+              <img
+                src="img/header/user.png"
+                alt="icon user"
+                title="Personal office"
+              />
+            </a>
+          </div>
+          <div class="header__lang">
+            <img
+              src="img/header/english.png"
+              alt="England flag"
+              title="England flag"
+            />
+            <img
+              src="img/header/arrow.png"
+              alt="Icon arrow"
+              title="Arrow"
+              class="lg"
+            />
+            <ul class="header__lang-menu">
+              <li>
+                <a href="#"
+                  ><img
+                    src="img/header/english.png"
+                    alt="England flag"
+                    title="England flag"
+                  />en</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="img/header/ukraine.png"
+                    alt="Ukraine flag"
+                    title="Ukraine flag"
+                  />ua</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="header__actions">
+          <a href="course.html" class="button header__button-book"
+            >Book course</a
+          >
+        </div>
+      </header>
+      <main class="main">
+        <section class="header-hero">
+          <ul class="breadcrumbs">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a>Courses</a>
+            </li>
+          </ul>
+        </section>
+        <section class="courses">
+          <h2 class="title high">our courses</h2>
+          <div class="courses__search">
+            <label for="search">Search for a course:</label>
+            <input type="search" id="search" />
+          </div>
+          <div class="courses__content">
+            <div class="courses__filters">
+              <button class="image course-filters__image" id="filter-toggle">
+                <img
+                  src="img/courses/filter.png"
+                  alt="Icon filter"
+                  title="Filter courses"
+                />
+              </button>
+              <div class="courses__dropdowns" id="filters">
+                <label for="category-filter">Category:</label>
+                <select id="category-filter">
+                  <option value="all">All</option>
+                  <option value="Computer Science">Computer Science</option>
+                  <option value="Web Development">Web Development</option>
+                  <option value="Artificial Intelligence">
+                    Artificial Intelligence
+                  </option>
+                  <option value="Data Science">Data Science</option>
+                </select>
+
+                <label for="price-filter">Max Price:</label>
+                <input
+                  type="number"
+                  id="price-filter"
+                  placeholder="Enter max price"
+                  min="0"
+                />
+                <label for="duration-filter">Duration:</label>
+                <select id="duration-filter">
+                  <option value="all">All</option>
+                  <option value="6 weeks">6 weeks</option>
+                  <option value="7 weeks">7 weeks</option>
+                  <option value="8 weeks">8 weeks</option>
+                  <option value="9 weeks">9 weeks</option>
+                  <option value="10 weeks">10 weeks</option>
+                  <option value="12 weeks">12 weeks</option>
+                  <option value="14 weeks">14 weeks</option>
+                  <option value="15 weeks">15 weeks</option>
+                </select>
+              </div>
+            </div>
+            <div class="courses__card">
+              <ul class="courses-card__list"></ul>
+            </div>
+          </div>
+        </section>
+        <div class="modal">
+          <div class="modal__content">
+            <div class="image close__btn">
+              <img
+                src="img/courses/close.png"
+                alt="Close icon"
+                title="Close icon"
+              />
+            </div>
+            <div class="modal__info">
+              <div class="modal-info__content">
+                <h2 class="modal-content__title"></h2>
+                <p class="modal-content__category"></p>
+                <p class="modal-content__duration"></p>
+                <p class="modal-content__instructor"></p>
+                <p class="modal-content__description"></p>
+                <div class="modal-contant__detail">
+                  <a href="" class="button">Enroll course</a>
+                  <p class="modal-content__price"></p>
+                </div>
+              </div>
+              <div class="image modal-info__image">
+                <img class="modal-info__image--img" src="" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="content footer__content">
+          <div class="footer__logo">
+            <a href="" class="logo footer__logo">
+              <img src="img/header/logo.png" alt="Main logo" title="Our logo" />
+            </a>
+            <p class="footer__text">
+              Level up your skills. Learn anytime, anywhere.
+            </p>
+          </div>
+          <div class="footer__links">
+            <p class="footer-links__title">Information</p>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#courses">Courses</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__links">
+            <p class="footer-links__title">Privacy policy</p>
+            <ul>
+              <li><a href="index.html">Terms of use</a></li>
+              <li><a href="#courses">Cookies policy</a></li>
+              <li><a href="#about">Public agreement</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__links">
+            <p class="footer-links__title">Social</p>
+            <ul>
+              <li>
+                <a href="https://www.instagram.com" target="_blank">
+                  <img
+                    src="img/footer/instagram.png"
+                    alt="Instagram"
+                    title="Instagram"
+                  />
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com" target="_blank">
+                  <img
+                    src="img/footer/facebook.png"
+                    alt="Facebook"
+                    title="Facebook"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com" target="_blank">
+                  <img
+                    src="img/footer/x.png"
+                    alt="X (Twitter)"
+                    title="X (Twitter)"
+                  />
+                  X (Twitter)
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>&copy; 2025 Your Company Name. All rights reserved.</p>
+          <div class="footer-bottom__payment">
+            <img
+              src="img/footer/mastercard.png"
+              alt="Icon mastercard"
+              title="Payment method mastercard"
+            />
+            <img
+              src="img/footer/visa.png"
+              alt="Icon visa"
+              title="Payment method visa"
+            />
+          </div>
+        </div>
+        <div class="footer-buttons">
+          <a href="" class="button footer__button-book">Book course</a>
+        </div>
+      </footer>
+    </div>
+    <script src="js/header.js"></script>
+    <script src="js/faq.js"></script>
+    <script src="js/courses.js"></script>
+  </body>
+</html>

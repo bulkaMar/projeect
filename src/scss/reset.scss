@@ -1,0 +1,101 @@
+$color_1: inherit;
+$font-family_1: inherit;
+$background-color_1: transparent;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  font-family: $font-family_1;
+  font-size: inherit;
+  color: $color_1;
+  background-color: $background-color_1;
+  border: none;
+  outline: none;
+}
+
+input {
+  background: none;
+  font-family: $font-family_1;
+  font-size: inherit;
+  color: $color_1;
+  background-color: $background-color_1;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  background: none;
+  font-family: $font-family_1;
+  font-size: inherit;
+  color: $color_1;
+  background-color: $background-color_1;
+  border: none;
+  outline: none;
+}
+
+iframe {
+  width: 100%;
+  border: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+select {
+  font-family: $font-family_1;
+  font-size: inherit;
+  color: $color_1;
+  background-color: $background-color_1;
+  border: none;
+  outline: none;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+h5 {
+  font-weight: normal;
+}
+
+h6 {
+  font-weight: normal;
+}
+
+p {
+  font-weight: normal;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}

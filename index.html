@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./dist/css/reset.css" />
+    <link rel="stylesheet" href="./dist/css/main.css" />
+    <link rel="stylesheet" href="./dist/css/responsive.css" />
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <button class="header__button-menu">
+          <span class="header__navicon"></span>
+        </button>
+        <a href="index.html" class="logo header__logo">
+          <img src="img/header/logo.png" alt="Main logo" title="Our logo" />
+        </a>
+        <nav class="menu header__menu">
+          <ul>
+            <li class="menu__item">
+              <div class="menu-item__header">
+                <p>Courses</p>
+                <img
+                  src="img/header/arrow.png"
+                  alt="Icon arrow"
+                  title="Icon arrow"
+                />
+              </div>
+              <ul class="menu-item__submenu">
+                <li><a href="course.html">Computer Science</a></li>
+                <li><a href="course.html">Web Development</a></li>
+                <li><a href="course.html">Artificial Intelligence</a></li>
+                <li><a href="course.html">Data Science</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="reviews.html">Reviews</a>
+            </li>
+            <li>
+              <a href="contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__info">
+          <div class="header__contact">
+            <a href="tel:+380123456789" class="image header-contact__image">
+              <img
+                src="img/header/call.png"
+                alt="Icon phone"
+                title="Connect with manager"
+              />
+            </a>
+            <a href="" class="image header-contact__image">
+              <img
+                src="img/header/user.png"
+                alt="icon user"
+                title="Personal office"
+              />
+            </a>
+          </div>
+          <div class="header__lang">
+            <img
+              src="img/header/english.png"
+              alt="England flag"
+              title="England flag"
+            />
+            <img
+              src="img/header/arrow.png"
+              alt="Icon arrow"
+              title="Arrow"
+              class="lg"
+            />
+            <ul class="header__lang-menu">
+              <li>
+                <a href="#"
+                  ><img
+                    src="img/header/english.png"
+                    alt="England flag"
+                    title="England flag"
+                  />en</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="img/header/ukraine.png"
+                    alt="Ukraine flag"
+                    title="Ukraine flag"
+                  />ua</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="header__actions">
+          <a href="course.html" class="button header__button-book"
+            >Book course</a
+          >
+        </div>
+      </header>
+      <main class="main">
+        <section class="welcome">
+          <div class="image welcome__image">
+            <img
+              src="img/welcome/welcome-img.webp"
+              alt="Students in the audience"
+              title="Students in the audience"
+            />
+          </div>
+          <div class="content welcome__content">
+            <h1 class="title general welcome-content__title">
+              Welcome to SkillUp – Your Gateway to Success
+            </h1>
+            <p class="welcome-content__info">
+              Unlock your full potential with SkillUp! Our platform provides a
+              wide range of interactive courses, expert-led tutorials, and
+              hands-on learning experiences to help you master new skills and
+              advance your career.
+            </p>
+            <a href="contacts.html" class="button welcome-content__button"
+              >Start Today</a
+            >
+          </div>
+        </section>
+        <section class="advantage">
+          <div class="advantage__rating">
+            <div class="image advantage-rating__image">
+              <img
+                src="img/advantage/person-1.jpg"
+                alt="Student"
+                title="Student"
+              />
+              <img
+                src="img/advantage/person-2.jpg"
+                alt="Student"
+                title="Student"
+              />
+              <img
+                src="img/advantage/person-3.jpg"
+                alt="Student"
+                title="Student"
+              />
+            </div>
+            <p class="advantage-rating__info">
+              Our graduates work at top companies worldwide
+            </p>
+            <p class="advantage-rating__rate">4.8 <span>/5</span></p>
+            <p class="advantage-rating__text">Based on Google Reviews</p>
+          </div>
+          <div class="advantage__block">
+            <div class="advantage-block__item">
+              <p class="title medium advantage-block-item__title">
+                Expert-Led Courses
+              </p>
+              <p class="advantage-block-item__text">
+                Learn from industry professionals with hands-on experience
+              </p>
+            </div>
+            <div class="advantage-block__item">
+              <p class="title medium advantage-block-item__title">
+                Flexible Learning
+              </p>
+              <p class="advantage-block-item__text">
+                Study at your own pace, anytime, anywhere
+              </p>
+            </div>
+            <div class="advantage-block__item">
+              <p class="title medium advantage-block-item__title">
+                Interactive Lessons
+              </p>
+              <p class="advantage-block-item__text">
+                Engage with quizzes, projects, and real-world examples
+              </p>
+            </div>
+            <div class="advantage-block__item">
+              <p class="title medium advantage-block-item__title">
+                Community Support
+              </p>
+              <p class="advantage-block-item__text">
+                Connect with fellow learners and mentors for guidance
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="slider">
+          <h2 class="title high slider__title">Our Courses</h2>
+          <div class="content slider__content">
+            <div class="slider-content__list" id="slider-list"></div>
+            <div class="slider-content__buttons">
+              <button id="prev-slide" class="slider-content__button">
+                <img
+                  src="img/slider/arrow.png"
+                  alt="Icon arrow"
+                  title="icon arrow"
+                />
+              </button>
+              <button id="next-slide" class="slider-content__button">
+                <img
+                  src="img/slider/arrow.png"
+                  alt="Icon arrow"
+                  title="Icon arrow"
+                />
+              </button>
+            </div>
+          </div>
+          <a href="course.html" class="button slider__button">Learn More</a>
+        </section>
+        <section class="faq">
+          <h2 class="title high faq__title">FAQ</h2>
+          <h3 class="title medium faq__subtitle">You asked, we answered</h3>
+          <ul class="faq__list">
+            <li class="faq__item">
+              <button data-tab="tab-1" class="faq__question">
+                What is SkillUp?
+              </button>
+              <div id="tab-1" class="faq__answer">
+                <p>
+                  SkillUp is an online learning platform that offers expert-led
+                  courses to help you develop new skills and advance your
+                  career.
+                </p>
+              </div>
+            </li>
+            <li class="faq__item">
+              <button data-tab="tab-4" class="faq__question">
+                Who can use SkillUp?
+              </button>
+              <div id="tab-4" class="faq__answer">
+                <p>
+                  Anyone! Whether you’re a beginner, a professional looking to
+                  upskill, or someone exploring new career opportunities,
+                  SkillUp has courses for you.
+                </p>
+              </div>
+            </li>
+            <li class="faq__item">
+              <button data-tab="tab-2" class="faq__question">
+                Are the courses free?
+              </button>
+              <div id="tab-2" class="faq__answer">
+                <p>
+                  We offer both free and paid courses. You can check course
+                  details for pricing information.
+                </p>
+              </div>
+            </li>
+            <li class="faq__item">
+              <button data-tab="tab-3" class="faq__question">
+                Can I learn at my own pace?
+              </button>
+              <div id="tab-3" class="faq__answer">
+                <p>
+                  Yes! All courses are self-paced, so you can study whenever
+                  it’s convenient for you.
+                </p>
+              </div>
+            </li>
+            <li class="faq__item">
+              <button data-tab="tab-5" class="faq__question">
+                Is SkillUp available worldwide?
+              </button>
+              <div id="tab-5" class="faq__answer">
+                <p>
+                  Yes! You can access SkillUp from anywhere with an internet
+                  connection.
+                </p>
+              </div>
+            </li>
+            <li class="faq__item">
+              <button data-tab="tab-6" class="faq__question">
+                How do I enroll in a course?
+              </button>
+              <div id="tab-6" class="faq__answer">
+                <p>
+                  To enroll, simply select a course, click the "Enroll Now"
+                  button, and follow the instructions for payment and
+                  registration.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="content footer__content">
+          <div class="footer__logo">
+            <a href="" class="logo footer__logo">
+              <img src="img/header/logo.png" alt="Main logo" title="Our logo" />
+            </a>
+            <p class="footer__text">
+              Level up your skills. Learn anytime, anywhere.
+            </p>
+          </div>
+          <div class="footer__links">
+            <p class="footer-links__title">Information</p>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#courses">Courses</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__links">
+            <p class="footer-links__title">Privacy policy</p>
+            <ul>
+              <li><a href="index.html">Terms of use</a></li>
+              <li><a href="#courses">Cookies policy</a></li>
+              <li><a href="#about">Public agreement</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__links">
+            <p class="footer-links__title">Social</p>
+            <ul>
+              <li>
+                <a href="https://www.instagram.com" target="_blank">
+                  <img
+                    src="img/footer/instagram.png"
+                    alt="Instagram"
+                    title="Instagram"
+                  />
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com" target="_blank">
+                  <img
+                    src="img/footer/facebook.png"
+                    alt="Facebook"
+                    title="Facebook"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com" target="_blank">
+                  <img
+                    src="img/footer/x.png"
+                    alt="X (Twitter)"
+                    title="X (Twitter)"
+                  />
+                  X (Twitter)
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>&copy; 2025 Your Company Name. All rights reserved.</p>
+          <div class="footer-bottom__payment">
+            <img
+              src="img/footer/mastercard.png"
+              alt="Icon mastercard"
+              title="Payment method mastercard"
+            />
+            <img
+              src="img/footer/visa.png"
+              alt="Icon visa"
+              title="Payment method visa"
+            />
+          </div>
+        </div>
+        <div class="footer-buttons">
+          <a href="" class="button footer__button-book">Book course</a>
+        </div>
+      </footer>
+    </div>
+    <script src="js/header.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/faq.js"></script>
+  </body>
+</html>

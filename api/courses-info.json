@@ -1,0 +1,82 @@
+{
+  "1": {
+    "description": "This course will help you master the basics of web development, including HTML, CSS, and JavaScript. You will learn how to create websites that work across all devices.",
+    "requirements": "Basic computer knowledge, internet access.",
+    "level": "Beginner"
+  },
+  "2": {
+    "description": "This course provides in-depth knowledge of programming fundamentals and problem-solving techniques. You'll work with Python to build real-world applications.",
+    "requirements": "No prior programming experience required, but familiarity with basic math concepts will help.",
+    "level": "Beginner"
+  },
+  "3": {
+    "description": "Advanced JavaScript course focusing on modern frameworks like React.js and Node.js. You will learn how to build scalable, dynamic web applications.",
+    "requirements": "Intermediate knowledge of JavaScript and HTML/CSS.",
+    "level": "Advanced"
+  },
+  "4": {
+    "description": "Learn how to use popular data analysis tools like Python, R, and SQL. This course will teach you data wrangling, visualization, and machine learning techniques.",
+    "requirements": "Basic understanding of programming and statistics.",
+    "level": "Intermediate"
+  },
+  "5": {
+    "description": "Master the fundamentals of digital marketing including SEO, content creation, and social media strategies. You will be prepared to launch and manage successful marketing campaigns.",
+    "requirements": "None. This course is for beginners.",
+    "level": "Beginner"
+  },
+  "6": {
+    "description": "Gain expertise in mobile app development using Flutter and Dart. You'll learn how to create cross-platform mobile applications for Android and iOS.",
+    "requirements": "Basic programming knowledge is recommended.",
+    "level": "Intermediate"
+  },
+  "7": {
+    "description": "A deep dive into machine learning and artificial intelligence. This course covers algorithms, data processing, and real-world applications using Python.",
+    "requirements": "Basic programming knowledge and understanding of statistics.",
+    "level": "Advanced"
+  },
+  "8": {
+    "description": "Learn the fundamentals of cybersecurity, including encryption, secure communication, and ethical hacking techniques to protect systems from attacks.",
+    "requirements": "Basic computer knowledge.",
+    "level": "Beginner"
+  },
+  "9": {
+    "description": "This course will introduce you to cloud computing, covering services like AWS, Azure, and Google Cloud. You'll learn how to deploy scalable applications.",
+    "requirements": "Basic understanding of networking and cloud concepts.",
+    "level": "Intermediate"
+  },
+  "10": {
+    "description": "Get introduced to database management, SQL queries, and relational databases. You will learn how to interact with databases to manage and retrieve data.",
+    "requirements": "Basic understanding of programming concepts.",
+    "level": "Beginner"
+  },
+  "11": {
+    "description": "Dive into DevOps practices and learn how to automate and streamline development workflows. This course covers CI/CD pipelines and infrastructure management.",
+    "requirements": "Basic knowledge of programming and system administration.",
+    "level": "Intermediate"
+  },
+  "12": {
+    "description": "Master React.js and Redux for building dynamic user interfaces. This course focuses on state management, component architecture, and React hooks.",
+    "requirements": "Intermediate knowledge of JavaScript.",
+    "level": "Advanced"
+  },
+  "13": {
+    "description": "Learn game development using Unity. This course covers 2D and 3D game creation, physics simulations, and coding in C# to build interactive games.",
+    "requirements": "Basic understanding of programming.",
+    "level": "Intermediate"
+  },
+  "14": {
+    "description": "Explore the world of UX/UI design. Learn the principles of designing intuitive and user-friendly interfaces for web and mobile applications.",
+    "requirements": "No prior experience needed, but an interest in design is helpful.",
+    "level": "Beginner"
+  },
+  "15": {
+    "description": "This course covers the fundamentals of blockchain technology, smart contracts, and cryptocurrency. You'll learn how to build decentralized applications (dApps).",
+    "requirements": "Basic understanding of programming.",
+    "level": "Intermediate"
+  },
+  "16": {
+    "description": "Learn how to implement Agile and Scrum methodologies to manage software development projects. This course will teach you how to work in iterative, collaborative teams.",
+    "requirements": "Basic project management knowledge.",
+    "level": "Beginner"
+  }
+}

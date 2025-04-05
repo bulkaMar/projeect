@@ -1,0 +1,365 @@
+{
+  "reviews": [
+    {
+      "user": {
+        "name": "John Doe"
+      },
+      "course_category": "Computer Science",
+      "review": "The course was well-structured, with clear explanations of algorithms, data structures, and their real-world applications. I would highly recommend it to others.",
+      "rating": 5,
+      "date": "2025-03-01"
+    },
+    {
+      "user": {
+        "name": "Emily Smith"
+      },
+      "course_category": "Web Development",
+      "review": "Great course for beginners! The projects helped solidify my understanding of HTML, CSS, and JavaScript. I now feel confident in web development skills.",
+      "rating": 4,
+      "date": "2025-02-28"
+    },
+    {
+      "user": {
+        "name": "Michael Johnson"
+      },
+      "course_category": "Artificial Intelligence",
+      "review": "Very informative but quite challenging. The course material was rich, covering deep learning concepts. Prior knowledge in Python is necessary to succeed.",
+      "rating": 4,
+      "date": "2025-02-25"
+    },
+    {
+      "user": {
+        "name": "Sophia Brown"
+      },
+      "course_category": "Data Science",
+      "review": "Loved the hands-on approach with real datasets. The course taught me to use Python for data analysis, and it helped me land my first job in data science.",
+      "rating": 5,
+      "date": "2025-02-22"
+    },
+    {
+      "user": {
+        "name": "Daniel Wilson"
+      },
+      "course_category": "Computer Science",
+      "review": "Well-paced course with excellent explanations of programming concepts, algorithms, and problem-solving. It’s a solid foundation for aspiring software developers.",
+      "rating": 5,
+      "date": "2025-02-20"
+    },
+    {
+      "user": {
+        "name": "Olivia Martinez"
+      },
+      "course_category": "Web Development",
+      "review": "The course helped me build my first full-stack project. The lessons were clear, and I gained hands-on experience with frameworks like React and Node.js. The projects provided real-world scenarios.",
+      "rating": 5,
+      "date": "2025-02-18"
+    },
+    {
+      "user": {
+        "name": "Liam Anderson"
+      },
+      "course_category": "Artificial Intelligence",
+      "review": "The instructor was very knowledgeable. The assignments were challenging but rewarding, giving me a deep understanding of neural networks and AI applications.",
+      "rating": 4,
+      "date": "2025-02-15"
+    },
+    {
+      "user": {
+        "name": "Emma Thomas"
+      },
+      "course_category": "Data Science",
+      "review": "Covered all key concepts in data analysis. The course included practical applications with Python, which helped me improve my data analysis skills significantly.",
+      "rating": 5,
+      "date": "2025-02-12"
+    },
+    {
+      "user": {
+        "name": "Noah White"
+      },
+      "course_category": "Computer Science",
+      "review": "A solid foundation in algorithms and data structures. The course provided valuable coding practices that have improved my problem-solving skills in programming.",
+      "rating": 4,
+      "date": "2025-02-10"
+    },
+    {
+      "user": {
+        "name": "Ava Harris"
+      },
+      "course_category": "Web Development",
+      "review": "The JavaScript section could have been more detailed, but overall the course provided a good introduction to modern web development practices and tools.",
+      "rating": 4,
+      "date": "2025-02-08"
+    },
+    {
+      "user": {
+        "name": "James Clark"
+      },
+      "course_category": "Artificial Intelligence",
+      "review": "Great overview of deep learning and neural networks. The practical assignments were challenging but helped me gain hands-on experience with AI applications.",
+      "rating": 5,
+      "date": "2025-02-06"
+    },
+    {
+      "user": {
+        "name": "Isabella Lewis"
+      },
+      "course_category": "Data Science",
+      "review": "The course covered machine learning models, including practical applications with Python. It’s a great resource for anyone wanting to get into the data science field.",
+      "rating": 5,
+      "date": "2025-02-04"
+    },
+    {
+      "user": {
+        "name": "William Walker"
+      },
+      "course_category": "Computer Science",
+      "review": "A bit fast-paced, but overall a great learning experience. The course dives deep into programming paradigms and offers a solid foundation for future development.",
+      "rating": 4,
+      "date": "2025-02-02"
+    },
+    {
+      "user": {
+        "name": "Mia Hall"
+      },
+      "course_category": "Web Development",
+      "review": "I built my portfolio website thanks to this course! The lessons on HTML, CSS, and JavaScript were clear, and I learned valuable skills for web development.",
+      "rating": 5,
+      "date": "2025-01-30"
+    },
+    {
+      "user": {
+        "name": "Benjamin Allen"
+      },
+      "course_category": "Artificial Intelligence",
+      "review": "Good introduction to AI, but expected more hands-on projects. The lectures were informative, but the course could use more practical coding assignments.",
+      "rating": 3,
+      "date": "2025-01-28"
+    },
+    {
+      "user": {
+        "name": "Charlotte Young"
+      },
+      "course_category": "Data Science",
+      "review": "The course provided excellent explanations and practical assignments on data science. It enhanced my skills in Python and machine learning, making me more confident in the field.",
+      "rating": 5,
+      "date": "2025-01-25"
+    },
+    {
+      "user": {
+        "name": "Ethan King"
+      },
+      "course_category": "Computer Science",
+      "review": "A deep dive into programming paradigms. The course content was rich and well-structured, which provided me with a strong understanding of programming languages and concepts.",
+      "rating": 5,
+      "date": "2025-01-23"
+    },
+    {
+      "user": {
+        "name": "Amelia Scott"
+      },
+      "course_category": "Web Development",
+      "review": "The React section was well-explained and useful. It helped me understand modern web development practices and how to build dynamic web applications.",
+
+      "rating": 4,
+      "date": "2025-01-20"
+    },
+    {
+      "user": {
+        "name": "Alexander Adams"
+      },
+      "course_category": "Artificial Intelligence",
+      "review": "An excellent introduction to reinforcement learning. The course provided practical coding examples that helped me apply theoretical concepts in real-world AI applications.",
+      "rating": 5,
+      "date": "2025-01-18"
+    },
+    {
+      "user": {
+        "name": "Harper Baker"
+      },
+      "course_category": "Data Science",
+      "review": "The course covered essential Python libraries like pandas and NumPy. It was highly practical and helped me understand key concepts in data science and machine learning.",
+      "rating": 5,
+      "date": "2025-01-15"
+    },
+    {
+      "user": {
+        "name": "Oliver Turner"
+      },
+      "course_category": "Computer Science",
+      "review": "This course covered important topics like object-oriented programming and database management systems. I feel much more confident in my coding skills now.",
+      "rating": 5,
+      "date": "2025-03-04"
+    },
+    {
+      "user": {
+        "name": "Amelia Carter"
+      },
+      "course_category": "Web Development",
+      "review": "The course was very engaging. I now have a solid understanding of both front-end and back-end development. The hands-on projects were very helpful.",
+      "rating": 5,
+      "date": "2025-03-03"
+    },
+    {
+      "user": {
+        "name": "Lucas Thompson"
+      },
+      "course_category": "Artificial Intelligence",
+      "review": "The course content was great, but it could use more interactive coding sessions. The theoretical content was solid, though, and I learned a lot about AI algorithms.",
+      "rating": 4,
+      "date": "2025-03-02"
+    },
+    {
+      "user": {
+        "name": "Ella Davis"
+      },
+      "course_category": "Data Science",
+      "review": "The course was fantastic! It introduced me to key data analysis techniques and Python libraries. The projects were challenging but rewarding.",
+      "rating": 5,
+      "date": "2025-03-01"
+    },
+    {
+      "user": {
+        "name": "Mason Lewis"
+      },
+      "course_category": "Web Development",
+      "review": "The course taught me a lot about modern front-end development tools. However, I would have appreciated more coverage of responsive design.",
+      "rating": 4,
+      "date": "2025-02-28"
+    },
+    {
+      "user": {
+        "name": "Scarlett Martin"
+      },
+      "course_category": "Computer Science",
+      "review": "This course was packed with essential concepts like algorithms, recursion, and sorting. It was a bit challenging, but the content was top-notch.",
+      "rating": 5,
+      "date": "2025-02-26"
+    },
+    {
+      "user": {
+        "name": "Benjamin Harris"
+      },
+      "course_category": "Artificial Intelligence",
+      "review": "Great course overall, but it could have included more case studies and practical applications. Still, the content on machine learning was very insightful.",
+      "rating": 4,
+      "date": "2025-02-24"
+    },
+    {
+      "user": {
+        "name": "Charlotte Walker"
+      },
+      "course_category": "Data Science",
+      "review": "I loved the way the course used real-world datasets to teach Python and data analysis. It was an excellent introduction to data science.",
+      "rating": 5,
+      "date": "2025-02-22"
+    },
+    {
+      "user": {
+        "name": "Elijah Moore"
+      },
+      "course_category": "Web Development",
+      "review": "The React lessons were extremely helpful. The course provided a strong foundation for developing dynamic web applications using modern technologies.",
+      "rating": 5,
+      "date": "2025-02-20"
+    },
+    {
+      "user": {
+        "name": "Grace White"
+      },
+      "course_category": "Computer Science",
+      "review": "A great overview of programming fundamentals. The course provided a thorough understanding of concepts like data structures and algorithms.",
+      "rating": 5,
+      "date": "2025-02-18"
+    },
+    {
+      "user": {
+        "name": "Lily King"
+      },
+      "course_category": "Web Development",
+      "review": "The course had a great balance of theory and practice. I learned a lot about JavaScript, HTML, and CSS, and I feel more confident in my web development skills.",
+      "rating": 5,
+      "date": "2025-02-16"
+    },
+    {
+      "user": {
+        "name": "James Martinez"
+      },
+      "course_category": "Artificial Intelligence",
+      "review": "The instructor explained complex concepts in an understandable way. I feel much more confident in using AI tools and frameworks after taking this course.",
+      "rating": 5,
+      "date": "2025-02-14"
+    },
+    {
+      "user": {
+        "name": "Avery Roberts"
+      },
+      "course_category": "Data Science",
+      "review": "The course offered an in-depth understanding of machine learning models and their applications. It was challenging, but very rewarding.",
+      "rating": 5,
+      "date": "2025-02-12"
+    },
+    {
+      "user": {
+        "name": "Daniel Young"
+      },
+      "course_category": "Computer Science",
+      "review": "This course was very helpful for understanding the theoretical side of computer science. It was a little advanced, but I learned a lot.",
+      "rating": 4,
+      "date": "2025-02-10"
+    },
+    {
+      "user": {
+        "name": "Luna Davis"
+      },
+      "course_category": "Web Development",
+      "review": "The course was comprehensive and very practical. I was able to build my first full-stack project by the end of it, and I feel ready to work as a web developer.",
+      "rating": 5,
+      "date": "2025-02-08"
+    },
+    {
+      "user": {
+        "name": "Sebastian Taylor"
+      },
+      "course_category": "Artificial Intelligence",
+      "review": "The course was informative, but the projects were a bit too theoretical. More practical coding exercises would have been great.",
+      "rating": 3,
+      "date": "2025-02-06"
+    },
+    {
+      "user": {
+        "name": "Victoria Wilson"
+      },
+      "course_category": "Data Science",
+      "review": "I loved the way this course used real-world examples and datasets. It provided a great introduction to machine learning and Python.",
+      "rating": 5,
+      "date": "2025-02-04"
+    },
+    {
+      "user": {
+        "name": "Evan Mitchell"
+      },
+      "course_category": "Web Development",
+      "review": "A good beginner course for HTML, CSS, and JavaScript. I especially appreciated the interactive projects that helped reinforce what I was learning.",
+      "rating": 4,
+      "date": "2025-02-02"
+    },
+    {
+      "user": {
+        "name": "Isla Harris"
+      },
+      "course_category": "Artificial Intelligence",
+      "review": "Excellent course on machine learning! The assignments were challenging but fun, and I now have a solid understanding of how AI works in real-world applications.",
+      "rating": 5,
+      "date": "2025-01-31"
+    },
+    {
+      "user": {
+        "name": "Evan Harris"
+      },
+      "course_category": "Data Science",
+      "review": "The instructor explained complex concepts in an understandable way. I feel much more confident in using AI tools and frameworks after taking this course.",
+      "rating": 3,
+      "date": "2025-03-06"
+    }
+  ]
+}

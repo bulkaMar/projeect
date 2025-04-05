@@ -1,0 +1,148 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Introduction to Programming",
+      "category": "Computer Science",
+      "duration": "10 weeks",
+      "instructor": "John Doe",
+      "price": "$199",
+      "image": "img/slider/computer.png"
+    },
+    {
+      "id": 2,
+      "title": "Web Development Bootcamp",
+      "category": "Web Development",
+      "duration": "12 weeks",
+      "instructor": "Jane Smith",
+      "price": "$299",
+      "image": "img/slider/web.png"
+    },
+    {
+      "id": 3,
+      "title": "Machine Learning Basics",
+      "category": "Artificial Intelligence",
+      "duration": "8 weeks",
+      "instructor": "Andrew Ng",
+      "price": "$249",
+      "image": "img/slider/ai.png"
+    },
+    {
+      "id": 4,
+      "title": "Data Science with Python",
+      "category": "Data Science",
+      "duration": "10 weeks",
+      "instructor": "Emily Johnson",
+      "price": "$279",
+      "image": "img/slider/data.png"
+    },
+    {
+      "id": 5,
+      "title": "Advanced Python Programming",
+      "category": "Computer Science",
+      "duration": "8 weeks",
+      "instructor": "John Doe",
+      "price": "$219",
+      "image": "img/slider/computer.png"
+    },
+    {
+      "id": 6,
+      "title": "Full Stack Web Development",
+      "category": "Web Development",
+      "duration": "14 weeks",
+      "instructor": "Jane Smith",
+      "price": "$349",
+      "image": "img/slider/web.png"
+    },
+    {
+      "id": 7,
+      "title": "Deep Learning with TensorFlow",
+      "category": "Artificial Intelligence",
+      "duration": "10 weeks",
+      "instructor": "Andrew Ng",
+      "price": "$269",
+      "image": "img/slider/ai.png"
+    },
+    {
+      "id": 8,
+      "title": "Big Data Analytics Specialist",
+      "category": "Data Science",
+      "duration": "12 weeks",
+      "instructor": "Emily Johnson",
+      "price": "$299",
+      "image": "img/slider/data.png"
+    },
+    {
+      "id": 9,
+      "title": "Cybersecurity Fundamentals",
+      "category": "Computer Science",
+      "duration": "6 weeks",
+      "instructor": "Mark Wilson",
+      "price": "$199",
+      "image": "img/slider/computer.png"
+    },
+    {
+      "id": 10,
+      "title": "Cloud Computing Essentials",
+      "category": "Web Development",
+      "duration": "9 weeks",
+      "instructor": "Michael Brown",
+      "price": "$259",
+      "image": "img/slider/web.png"
+    },
+    {
+      "id": 11,
+      "title": "Game Development",
+      "category": "Artificial Intelligence",
+      "duration": "14 weeks",
+      "instructor": "Alice Davis",
+      "price": "$329",
+      "image": "img/slider/ai.png"
+    },
+    {
+      "id": 12,
+      "title": "Blockchain for Beginners",
+      "category": "Data Science",
+      "duration": "7 weeks",
+      "instructor": "Chris Martin",
+      "price": "$219",
+      "image": "img/slider/data.png"
+    },
+    {
+      "id": 13,
+      "title": "UI/UX Design Principles",
+      "category": "Web Development",
+      "duration": "10 weeks",
+      "instructor": "Sophia Lee",
+      "price": "$279",
+      "image": "img/slider/web.png"
+    },
+    {
+      "id": 14,
+      "title": "DevOps and CI/CD Specialist",
+      "category": "Artificial Intelligence",
+      "duration": "8 weeks",
+      "instructor": "David Clark",
+      "price": "$249",
+      "image": "img/slider/ai.png"
+    },
+    {
+      "id": 15,
+      "title": "Mobile App with Flutter",
+      "category": "Data Science",
+      "duration": "12 weeks",
+      "instructor": "Olivia Wilson",
+      "price": "$299",
+      "image": "img/slider/data.png"
+    },
+    {
+      "id": 16,
+      "title": "AI in Business. How to use?",
+      "category": "Computer Science",
+      "duration": "6 weeks",
+      "instructor": "Robert Taylor",
+      "price": "$199",
+      "image": "img/slider/computer.png"
+    }
+  ]
+}

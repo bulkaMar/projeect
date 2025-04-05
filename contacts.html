@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./dist/css/reset.css" />
+    <link rel="stylesheet" href="./dist/css/main.css" />
+    <link rel="stylesheet" href="./dist/css/responsive.css" />
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <button class="header__button-menu">
+          <span class="header__navicon"></span>
+        </button>
+        <a href="index.html" class="logo header__logo">
+          <img src="img/header/logo.png" alt="Main logo" title="Our logo" />
+        </a>
+        <nav class="menu header__menu">
+          <ul>
+            <li class="menu__item">
+              <div class="menu-item__header">
+                <p>Courses</p>
+                <img
+                  src="img/header/arrow.png"
+                  alt="Icon arrow"
+                  title="Icon arrow"
+                />
+              </div>
+              <ul class="menu-item__submenu">
+                <li><a href="course.html">Computer Science</a></li>
+                <li><a href="course.html">Web Development</a></li>
+                <li><a href="course.html">Artificial Intelligence</a></li>
+                <li><a href="course.html">Data Science</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="reviews.html">Reviews</a>
+            </li>
+            <li>
+              <a href="contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__info">
+          <div class="header__contact">
+            <a href="tel:+380123456789" class="image header-contact__image">
+              <img
+                src="img/header/call.png"
+                alt="Icon phone"
+                title="Connect with manager"
+              />
+            </a>
+            <a href="" class="image header-contact__image">
+              <img
+                src="img/header/user.png"
+                alt="icon user"
+                title="Personal office"
+              />
+            </a>
+          </div>
+          <div class="header__lang">
+            <img
+              src="img/header/english.png"
+              alt="England flag"
+              title="England flag"
+            />
+            <img
+              src="img/header/arrow.png"
+              alt="Icon arrow"
+              title="Arrow"
+              class="lg"
+            />
+            <ul class="header__lang-menu">
+              <li>
+                <a href="#"
+                  ><img
+                    src="img/header/english.png"
+                    alt="England flag"
+                    title="England flag"
+                  />en</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="img/header/ukraine.png"
+                    alt="Ukraine flag"
+                    title="Ukraine flag"
+                  />ua</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="header__actions">
+          <a href="course.html" class="button header__button-book"
+            >Book course</a
+          >
+        </div>
+      </header>
+      <main class="main">
+        <section class="header-hero">
+          <ul class="breadcrumbs">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a>Contacts</a>
+            </li>
+          </ul>
+        </section>
+        <section class="form">
+          <h2 class="title high form__title">contact us</h2>
+          <div class="content form__content">
+            <div class="form-content__info">
+              <h3 class="form-content-info__title">Let’s get in touch</h3>
+              <ul class="form-content-info__list">
+                <li>
+                  <div class="image form-content-info-item__image">
+                    <img
+                      src="img/form/done.png"
+                      alt="Icon done"
+                      title="Icon done"
+                    />
+                  </div>
+                  <p>We'll answer all your questions</p>
+                </li>
+                <li>
+                  <div class="image form-content-info-item__image">
+                    <img
+                      src="img/form/done.png"
+                      alt="Icon done"
+                      title="Icon done"
+                    />
+                  </div>
+                  <p>We are here to assist you</p>
+                </li>
+                <li>
+                  <div class="image form-content-info-item__image">
+                    <img
+                      src="img/form/done.png"
+                      alt="Icon done"
+                      title="Icon done"
+                    />
+                  </div>
+                  <p>We’re ready to help with any inquiries</p>
+                </li>
+              </ul>
+            </div>
+            <div class="form-content__touch">
+              <form
+                id="registrationForm"
+                action="https://formspree.io/f/xkggavgw"
+                method="POST"
+              >
+                <label for="name">Name: <span>*</span> </label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="phone">Phone: <span>*</span> </label>
+                <div class="phone-container">
+                  <select id="countryCode">
+                    <option value="+380">🇺🇦 +380 (UA)</option>
+                    <option value="+1">🇺🇸 +1 (US)</option>
+                    <option value="+44">🇬🇧 +44 (UK)</option>
+                    <option value="+49">🇩🇪 +49 (DE)</option>
+                    <option value="+33">🇫🇷 +33 (FR)</option>
+                  </select>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter phone number"
+                    required
+                  />
+                </div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+                <label for="course">Choose course:</label>
+                <select id="course" name="course" required>
+                  <option value="">Loading courses..</option>
+                </select>
+                <button class="button form__button" type="submit">
+                  Submit
+                </button>
+              </form>
+              <div class="form-content-touch__message" id="message"></div>
+            </div>
+          </div>
+        </section>
+        <section class="location">
+          <h2 class="title high location__title">Our location</h2>
+          <div id="map"></div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="content footer__content">
+          <div class="footer__logo">
+            <a href="" class="logo footer__logo">
+              <img src="img/header/logo.png" alt="Main logo" title="Our logo" />
+            </a>
+            <p class="footer__text">
+              Level up your skills. Learn anytime, anywhere.
+            </p>
+          </div>
+          <div class="footer__links">
+            <p class="footer-links__title">Information</p>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#courses">Courses</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__links">
+            <p class="footer-links__title">Privacy policy</p>
+            <ul>
+              <li><a href="index.html">Terms of use</a></li>
+              <li><a href="#courses">Cookies policy</a></li>
+              <li><a href="#about">Public agreement</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__links">
+            <p class="footer-links__title">Social</p>
+            <ul>
+              <li>
+                <a href="https://www.instagram.com" target="_blank">
+                  <img
+                    src="img/footer/instagram.png"
+                    alt="Instagram"
+                    title="Instagram"
+                  />
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com" target="_blank">
+                  <img
+                    src="img/footer/facebook.png"
+                    alt="Facebook"
+                    title="Facebook"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com" target="_blank">
+                  <img
+                    src="img/footer/x.png"
+                    alt="X (Twitter)"
+                    title="X (Twitter)"
+                  />
+                  X (Twitter)
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>&copy; 2025 Your Company Name. All rights reserved.</p>
+          <div class="footer-bottom__payment">
+            <img
+              src="img/footer/mastercard.png"
+              alt="Icon mastercard"
+              title="Payment method mastercard"
+            />
+            <img
+              src="img/footer/visa.png"
+              alt="Icon visa"
+              title="Payment method visa"
+            />
+          </div>
+        </div>
+        <div class="footer-buttons">
+          <a href="" class="button footer__button-book">Book course</a>
+        </div>
+      </footer>
+    </div>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmlhC0ZPmRPo54nVFcOgbl9MFLR7Z3EXM&callback=initMap"
+    ></script>
+    <script src="js/header.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/map.js"></script>
+  </body>
+</html>
